@@ -12,11 +12,11 @@ def cal_matured_value(p, r, t, n):
     result = p * (1 + (r/n)) ** (n * t)
     return result 
 
-def get_inputs():
+def get_inputs:
     p = float(input("Enter the principal amount: ")) 
     r = float(input("Enter the interest rate: ")) 
     t = float(input("Enter the time in years: ")) 
-    n = float(input("Enter the number of periods the interest is compounded per year: ")) 
+    n = int(input("Enter the number of periods the interest is compounded per year: ")) 
     return p, r, t, n
     
 def main():
