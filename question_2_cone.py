@@ -12,7 +12,7 @@ def volume_cone(radius, height):
 def main():
     a = float(input("Input radius: ")) 
     b = float(input("Input height: ")) 
-    volume = volume_cone(radius, height) 
+    volume = volume_sphere(radius, height) 
     print(f"Volume of cone = { volume :.2f}") 
 
 # Don't change the code below!
